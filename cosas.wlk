@@ -38,7 +38,7 @@ object placa {
   method peso() = peso
   method material() = cobre
   method esBrillante() = cobre.esBrillante()
-  method peso(unPeso) { peso = unPeso }      // ← este falta
+  method peso(unPeso) { peso = unPeso } 
   method color(unColor) { color = unColor }
 }
 
